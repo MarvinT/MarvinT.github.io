@@ -1,4 +1,6 @@
+title: Neural Coder
 name: Marvin Thielk
 description: Neuroscientist, Programmer, Eccentric Time-Traveller Extraordinaire
 
-theme: jekyll-theme-midnight
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "dark"
