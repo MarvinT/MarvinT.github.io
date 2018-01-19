@@ -4,5 +4,13 @@ title: "About Marvin Thielk"
 excerpt: "Marvin Thielk is a Neuroscientist, Programmer, and Eccentric Time-Traveller Extraordinaire"
 ads: false
 share: false
+feature_row:
+  - image_path: https://www.dropbox.com/s/zkqnoll9lee6vga/time_distribution.png?raw=1
+    alt: "How I spend my Time"
+    title: "What I do..."
+    excerpt: "Distributions of 24 hour rolling average of how I spent my time. Each column is time spent in a different Google calendar. The dot is the time use in the last 24 hours. The X is the immediate preceding 24 hours."
 ---
+
+{% include feature_row %}
+
 ![How my time gets spent](https://www.dropbox.com/s/zkqnoll9lee6vga/time_distribution.png?raw=1)
