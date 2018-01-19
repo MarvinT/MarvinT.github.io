@@ -9,3 +9,4 @@ image:
 ads: false
 share: false
 ---
+![Time Distribution](https://www.dropbox.com/s/zkqnoll9lee6vga/time_distribution.png?raw=1)
