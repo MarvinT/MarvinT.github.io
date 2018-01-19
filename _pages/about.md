@@ -15,6 +15,4 @@ gallery:
     title: "Distributions of 24 hour rolling average of how I spent my time. Each column is time spent in a different Google calendar. The dot is the time use in the last 24 hours. The X is the immediate preceding 24 hours."
 ---
 
-{% include gallery caption="Attempts to quantify who I am..." %}
-
 ![How my time gets spent](https://www.dropbox.com/s/zkqnoll9lee6vga/time_distribution.png?raw=1)
