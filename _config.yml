@@ -244,7 +244,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: # true
-      share: true
+      share: false
       related: true
   # _pages
   - scope:
@@ -253,3 +253,14 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # goals
+  - scope:
+      path: ""
+      type: goals
+    values:
+      metrics: TBD
+      g2018Q1: TBD
+      g2018: TBD
+
+collections:
+- goals
