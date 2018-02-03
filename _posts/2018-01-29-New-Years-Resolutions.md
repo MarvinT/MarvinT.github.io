@@ -30,18 +30,5 @@ I'll be cleaning this up (in the [code](https://github.com/MarvinT/MarvinT.githu
 </table>
 
 {% for goal in sorted_goals %}
-  {{ goal.title | prepend: "## " | markdownify }}
-  <p>Description: {{ goal.description }}</p>
-  <p>Trackable metrics: {{ goal.metrics }}</p>
-  <p>Approaches: {{ goal.approaches }}</p>
-  <p>Q1 explicit goals: {{ goal.g2018Q1 }}</p>
-  <p>2018 goals: {{ goal.g2018 }}</p>
-  {% if goal.links %}
-  <p>Relevent Links:</p>
-  <ul>
-  {% for link in goal.links %}
-  <li><a href="{{ link.url }}">{{ link.text }}</a></li>
-  {% endfor %}
-  </ul>
-  {% endif %}
+  {% include goal.html %}
 {% endfor %}

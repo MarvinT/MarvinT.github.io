@@ -1,0 +1,9 @@
+{{ goal.title | prepend: "## " | markdownify }}
+<p>Description: {{ goal.description }}</p>
+<p>Trackable metrics: {{ goal.metrics }}</p>
+<p>Approaches: {{ goal.approaches }}</p>
+<p>Q1 explicit goals: {{ goal.g2018Q1 }}</p>
+<p>2018 goals: {{ goal.g2018 }}</p>
+{% if goal.content %}
+<p>{{ goal.content | markdownify }}</p>
+{% endif %}
