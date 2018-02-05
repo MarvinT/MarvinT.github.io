@@ -1,0 +1,5 @@
+{{ my_figure.title | prepend: "## " | markdownify }}
+{% include figure image_path=my_figure.image_path alt=my_figure.title caption=my_figure.caption %}
+{% if my_figure.content %}
+<p>{{ my_figure.content | markdownify }}</p>
+{% endif %}

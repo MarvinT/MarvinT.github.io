@@ -261,6 +261,13 @@ defaults:
       metrics: TBD
       g2018Q1: TBD
       g2018: TBD
+  # figures
+  - scope:
+      path: ""
+      type: figures
+    values:
+      order: 100
 
 collections:
 - goals
+- figures
