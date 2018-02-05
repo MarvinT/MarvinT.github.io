@@ -10,5 +10,5 @@ share: false
 {% include my_gallery caption="Attempts to quantify who I am..." %}
 
 {% for my_figure in sorted_figures %}
-  {% include my_figure.html %}
+  {% include my_figure.html header_level=2 %}
 {% endfor %}

@@ -1,4 +1,11 @@
-{{ my_figure.title | prepend: "## " | markdownify }}
+{%- case include.header_level -%}
+  {%- when 2 -%}
+    {{- my_figure.title | prepend: "## " | markdownify -}}
+  {%- when 3 -%}
+    {{- my_figure.title | prepend: "### " | markdownify -}}
+  {%- else -%}
+    {{- my_figure.title | markdownify -}}
+{%- endcase -%}
 {% include figure image_path=my_figure.image_path alt=my_figure.title caption=my_figure.caption %}
 {% if my_figure.content %}
 <p>{{ my_figure.content | markdownify }}</p>

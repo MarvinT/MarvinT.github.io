@@ -7,3 +7,11 @@
 {% if goal.content %}
 <p>{{ goal.content | markdownify }}</p>
 {% endif %}
+{%- assign sorted_figures = (site.figures | sort: 'order') -%}
+{%- for my_figure in sorted_figures -%}
+  {%- for tag in my_figure.tags -%}
+    {%- if tag == goal.title -%}
+      {%- include my_figure.html header_level=3 -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}
