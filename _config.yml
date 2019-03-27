@@ -6,7 +6,7 @@ author:
   name             : "Marvin Thielk"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Neuroscientist, Programmer, Eccentric Time-Traveller Extraordinaire"
-  location         : "Somewhen in the year 2018"
+  location         : "Somewhen in the year 2019"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -41,7 +41,7 @@ title                    : "Neural Coder"
 title_separator          : "-"
 name                     : "Marvin Thielk"
 description              : "A website about things."
-url                      : "http://www.neuralcoder.com"
+url                      : "http://www.neuralcoder.science"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "MarvinT/MarvinT.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
