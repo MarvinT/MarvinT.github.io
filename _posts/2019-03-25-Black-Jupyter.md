@@ -13,7 +13,7 @@ I found a couple such as
  - https://github.com/tobinjones/jupyterlab_formatblack
  - https://github.com/betatim/joli
 
-but they were all, missing features, were out of date and had issues.
+However, they were all missing features, were out of date, and had issues.
 
 Writing my own version would have been 2 short files, however, I found that [code_prettify](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/code_prettify/README_code_prettify.html) is so extensible that you can easily configure it to use Black using the nbextensions configurable parameters. 
 
